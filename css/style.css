@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+:root{
+    --primary-color: #2563EB;
+    --primary-link-border:#1E40AF;
+    --white:#ffffff;
+    --gray:#fafafa;
+    --off-white:#f3f4f6;
+}
+
+/** body **/
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+}
+/** containers **/
+.container{
+    padding: 0rem 1rem;
+}
+.container-center{
+    max-width:600 px;
+    margin:auto;
+
+}
+/** links **/
+.link{
+    padding:0.5rem;
+    text-decoration: none;
+    color:white;
+}
+.primary-link{
+    background-color: var(--primary-color);
+    color:white;
+    border-radius: 0.5rem;
+    border-style:solid;
+    border-color: var(--primary-color);
+    transition: transform 0.2s;
+}
+.primary-link:hover{
+    transform:scale(1.5);
+}
+.secondary-link{
+    background-color:white;
+    color:var(--primary-color);
+    border-radius:0.5rem;
+    border-style:solid;
+}
+.secondary-link:hover{
+    background-color: var(--primary-color);
+    color:white;
+}
+hr{
+    margin: 2rem 0rem;
+}
+
+/** lists **/
+.non-bullets{
+    list-style:none;
+}
+.inline-list{
+    display:inline;
+    padding:0rem 1rem;
+    list-style:none;
+
+}
+ol{
+    list-style: none;
+}
+/** nav-bar **/
+.navigation{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;;
+}
+.navigation a:hover{
+    text-align:center;
+    background-color:white;
+    color:var(--primary-color);
+    border-radius:0.5rem;
+    font-weight:bold;
+    
+}
+.navigation a:active{
+    background-color:white;
+    color:var(--primary-color);
+    border-radius:0.5rem;
+    font-weight:bold;
+    text-align:center;
+}
+.navigation .nav-pills{
+    text-align:right;
+    font-weight: 350;
+}
+.navigation .logo{
+    font-weight: 300;
+    font-size:1.5rem;
+}
+/** header **/
+.landing{
+    padding:2rem;
+}
+.landing .landing-img{
+    max-width: 450px;
+    display: block;
+    margin:auto;
+}
+.landing .landing-heading{
+    padding-top:1rem;
+    font-weight: 900;
+    text-align: center;
+    
+}
+.landing .landing-subheading{
+    text-align: center;
+    font-weight: 300;
+}
+
+/** section **/
+.section-white{
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 1rem 0rem;
+    
+}
+.section-off-white{
+    background-color: var(--off-white);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding:1rem 0rem;
+
+}
+
+/** footer **/
+.footer{
+    background: var(--primary-color);
+    padding: 0.5rem 0rem;
+    
+}
+.footer .footer-heading{
+    font-style:normal;
+    padding:3rem 0rem 1rem 0rem;
+    text-align:center;
+    color:white;
+    font-weight: 300;
+    font-size:24px;;
+}
+.footer .social-links{
+    text-align:center;
+    padding: 1rem 0rem;
+}
+.footer .owner{
+    color:white;
+    text-align: center;
+    padding: 1rem 0rem;
+    font-weight:300;
+}
+.footer .build-version{
+    color:white;
+    text-align:center;
+    font-size: small;
+    padding-bottom: 1rem;
+    font-weight:300;
+}
+/** social media **/
+.fa {
+    padding:20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  /* Add a hover effect if you want */
+.fa:hover {
+    transition: 0.2s;;
+    transform: scale(1.3);
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Instagram */
+  .fa-instagram{
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    color: white;
+  }
+  /** LinkedIn **/
+  .fa-linkedin{
+      color:white;
+  }
+/** GitHub **/
+.fa-github{
+    color:white;
+}
