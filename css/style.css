@@ -14,13 +14,14 @@ body{
 }
 /** containers **/
 .container{
-    padding: 0rem 1rem;
+    padding: 2rem 1rem;
 }
 .container-center{
     max-width:600 px;
     margin:auto;
 
 }
+
 /** links **/
 .link{
     padding:0.5rem;
@@ -30,10 +31,13 @@ body{
 .primary-link{
     background-color: var(--primary-color);
     color:white;
-    border-radius: 0.5rem;
+    border-radius: 290486px;
     border-style:solid;
-    border-color: var(--primary-color);
-    transition: transform 0.2s;
+    border-width: 2px;
+    font-size: 16px;
+    padding: 0.5rem 0.75rem;
+    text-align:center;
+
 }
 .primary-link:hover{
     transform:scale(1.5);
@@ -41,8 +45,13 @@ body{
 .secondary-link{
     background-color:white;
     color:var(--primary-color);
-    border-radius:0.5rem;
+    border-radius: 290486px;
     border-style:solid;
+    border-width: 2px;
+    font-size: 16px;
+    padding: 0.5rem 0.75rem;
+    text-align:center;
+
 }
 .secondary-link:hover{
     background-color: var(--primary-color);
@@ -67,34 +76,42 @@ ol{
 }
 /** nav-bar **/
 .navigation{
-    background-color: var(--primary-color);
-    color:white;
+    color:var(--primary-color);
     padding: 1rem;
     border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;;
+    border-bottom-right-radius: 0.5rem;
 }
 .navigation a:hover{
     text-align:center;
-    background-color:white;
-    color:var(--primary-color);
-    border-radius:0.5rem;
-    font-weight:bold;
+    background-color: var(--primary-color);
+    color:white;
     
 }
 .navigation a:active{
-    background-color:white;
-    color:var(--primary-color);
-    border-radius:0.5rem;
-    font-weight:bold;
     text-align:center;
+    background-color: var(--primary-color);
+    color:white;
+    
 }
 .navigation .nav-pills{
     text-align:right;
-    font-weight: 350;
+    font-weight: 400;
+    margin:0;
 }
-.navigation .logo{
-    font-weight: 300;
-    font-size:1.5rem;
+.navigation .logo .logo-img{
+    max-width: 150px;
+
+}
+.navigation a{
+    background-color:white;
+    color:var(--primary-color);
+    border-radius: 290486px;
+    border-style:solid;
+    border-width: 2px;
+    font-size: 16px;
+    padding: 0.5rem 0.75rem;
+    text-align:center;
+
 }
 /** header **/
 .landing{
@@ -105,6 +122,12 @@ ol{
     display: block;
     margin:auto;
 }
+.landing .landing-img-about{
+    max-width: 200px;
+    display: block;
+    margin:auto;
+
+}
 .landing .landing-heading{
     padding-top:1rem;
     font-weight: 900;
@@ -114,6 +137,15 @@ ol{
 .landing .landing-subheading{
     text-align: center;
     font-weight: 300;
+    padding-bottom:2rem;
+}
+.landing .landing-subheading .text-inverted{
+    color:var(--primary-color);
+    font-weight: 500;
+}
+.landing .landing-heading .text-inverted{
+    color:var(--primary-color);
+    font-weight: 900;
 }
 
 /** section **/
@@ -121,34 +153,65 @@ ol{
     background-color: var(--white);
     border-radius: 0.5rem;
     text-align: center;
-    padding: 1rem 0rem;
+    padding: 2rem 0rem;
     
 }
+.section-white h2{
+    font-weight: 500;
+    color:var(--primary-color);
+}
+.section-white p{
+    padding-bottom:1rem;
+}
+
 .section-off-white{
     background-color: var(--off-white);
     border-radius: 0.5rem;
     text-align: center;
-    padding:1rem 0rem;
+    padding: 2rem 0rem;
+    
+}
+.section-off-white h2{
+    font-weight: 500;
+    color:var(--primary-color);
+}
+.section-off-white p{
+    padding-bottom:1rem;
+}
 
+.section-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding:2rem 0rem;
+    color:white;
+
+}
+.section-primary h2{
+    font-weight: 500;
+    color:var(--white);
+}
+.section-primary p{
+    padding-bottom:1rem;
 }
 
 /** footer **/
 .footer{
     background: var(--primary-color);
-    padding: 0.5rem 0rem;
+    padding: 2rem 0rem;
     
 }
 .footer .footer-heading{
     font-style:normal;
-    padding:3rem 0rem 1rem 0rem;
+    padding:2rem 0rem 1rem 0rem;
     text-align:center;
     color:white;
     font-weight: 300;
-    font-size:24px;;
+    font-size:24px;
 }
 .footer .social-links{
     text-align:center;
-    padding: 1rem 0rem;
+    margin-left:0;
 }
 .footer .owner{
     color:white;
