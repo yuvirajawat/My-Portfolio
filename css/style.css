@@ -33,7 +33,7 @@ body{
     background-color: var(--primary-color);
     color:white;
     border-radius: 290486px;
-    border-style:solid;
+    border-style:solid var(--primary-color);
     border-width: 2px;
     font-size: 16px;
     padding: 0.5rem 0.75rem;
@@ -78,6 +78,7 @@ li{
 ol{
     list-style: none;
 }
+
 /** nav-bar **/
 .navigation{
     color:var(--primary-color);
@@ -91,7 +92,7 @@ ol{
     color:white;
     
 }
-.navigation a:active{
+.navigation .nav-pills a.active{
     text-align:center;
     background-color: var(--primary-color);
     color:white;
@@ -122,7 +123,7 @@ ol{
     padding:2rem;
 }
 .landing .landing-img{
-    max-width: 450px;
+    max-width: 320px;
     display: block;
     margin:auto;
 }
@@ -243,6 +244,7 @@ ol{
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    cursor:pointer;
   }
   /* Add a hover effect if you want */
 .fas:hover {
@@ -297,10 +299,11 @@ ol{
 }
 .fa-node{
     color:green;
+    margin-right:40px;
 }
 .fa-codepen{
     color:black;
-    margin:.2rem;
+    margin-right:35px;
 }
 .fa-git-alt{
     color:#f06529;
@@ -318,7 +321,7 @@ ol{
 }
 
 /** timeline **/
-*{
+.container-timeline{
     box-sizing: border-box;
   }
   
@@ -452,4 +455,23 @@ ol{
       left: 0%;
     }
   }
- 
+ .row{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+     
+ }
+ .col{
+     flex:auto;
+ }
+  .cs-fund{
+    text-align: center;
+    border-radius: 290486px;
+    border-style:solid;
+    border-width: 2px;
+    font-size: 16px;
+    padding: 0.5rem 0.75rem;
+    text-align:center;
+    margin:1rem;
+  }
