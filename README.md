@@ -1,3 +1,2 @@
 # component-library
-It consists components for my upcoming web developent projects.
-Components are built using html5 and css3.
+It refrences to my portfolio website built using html5, css3, javascript, reactJS and hosted on netlify.
