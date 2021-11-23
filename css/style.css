@@ -16,7 +16,7 @@ body{
 }
 /** containers **/
 .container{
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 2rem 1rem;
 }
 .container-center{
     max-width:600 px;
@@ -106,7 +106,7 @@ ol{
     margin:0;
 }
 .navigation .logo .logo-img{
-    max-width: 150px;
+    max-width: 100px;
 
 }
 .navigation a{
@@ -120,32 +120,7 @@ ol{
     text-align:center;
 
 }
-@media screen and (min-width: 600px) {
-    .navigation .nav-pills::after{
-        text-align:center;
-        font-weight: 400;
-        margin:0;
-        padding:10px;
-    }
-    .navigation .logo .logo-img{
-        max-width: 50px;
-    
-    }
-    .navigation a{
-        background-color:white;
-        color:var(--primary-color);
-        border-radius: 290486px;
-        border-style:solid;
-        border-width: 2px;
-        font-size: 12px;
-        padding: 0.5rem 0.75rem;
-        text-align:center;
-    
-    }
 
-
-
-}
 /** header **/
 .landing{
     padding:2rem;
