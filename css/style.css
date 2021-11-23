@@ -270,19 +270,23 @@ ol{
   /* Instagram */
   .fa-instagram{
     color: white;
+    margin: 15px;
   }
   
   /* Twitter */
   .fa-twitter {
     color: white;
+    margin:15px;
   }
   /** LinkedIn **/
   .fa-linkedin{
       color:white;
+      margin:15px;
   }
 /** GitHub **/
 .fa-github{
     color:white;
+    margin:15px;
 }
 /** web skills **/
 .fa-html5{
