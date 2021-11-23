@@ -77,6 +77,24 @@ li{
 ol{
     list-style: none;
 }
+.cs-fund{
+    border-radius: 290486px;
+    border-style:solid;
+    border-width: 2px;
+    font-size: 16px;
+    padding: 0.5rem 0.75rem;
+    text-align:center;
+    margin:15px;
+}
+.android-skills{
+    border-radius: 290486px;
+    border-style:solid;
+    border-width: 2px;
+    font-size: 16px;
+    padding: 0.5rem 0.75rem;
+    text-align:center;
+    margin:15px;
+}
 /** nav-bar **/
 .navigation{
     color:var(--primary-color);
@@ -161,7 +179,6 @@ ol{
 }
 .section-white h2{
     font-weight: 500;
-    color:var(--primary-color);
 }
 .section-white p{
     padding-bottom:1rem;
@@ -176,7 +193,7 @@ ol{
 }
 .section-off-white h2{
     font-weight: 500;
-    color:var(--primary-color);
+  
 }
 .section-off-white p{
     padding-bottom:1rem;
@@ -197,6 +214,13 @@ ol{
 .section-primary p{
     padding-bottom:1rem;
 }
+.section-white .container .text-inverted{
+    color:var(--primary-color);
+}
+.section-off-white .container .text-inverted{
+    color:var(--primary-color);
+}
+
 /** footer **/
 .footer{
     background: var(--primary-color);
@@ -230,8 +254,7 @@ ol{
 }
 /** social media **/
 .fa {
-    padding:20px;
-    font-size: 30px;
+    margin:20px;
     width: 30px;
     text-align: center;
     text-decoration: none;
@@ -262,4 +285,22 @@ ol{
 /** GitHub **/
 .fa-github{
     color:white;
+}
+.fa-html5{
+    color:#f06529
+}
+.fa-css3{
+    color:var(--primary-color);
+}
+.fa-codepen{
+    color:black;
+}
+.fa-js{
+    color:yellow;
+}
+.fa-github-square{
+    color:purple;
+}
+.inline-icon{
+    margin:0;
 }
