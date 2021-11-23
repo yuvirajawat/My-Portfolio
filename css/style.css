@@ -465,7 +465,7 @@ ol{
     flex-direction:row;
     align-items: center;
     justify-content: center;
-    margin-block-start:0;
+    margin-right:10px;
      
  }
  .col{
