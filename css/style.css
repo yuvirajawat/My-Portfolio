@@ -131,7 +131,13 @@ ol{
     margin:auto;
 }
 .landing .landing-img-about{
-    max-width: 300px;
+    max-width: 200px;
+    display: block;
+    margin:auto;
+
+}
+.landing .landing-img-blogs{
+    max-width: 200px;
     display: block;
     margin:auto;
 
