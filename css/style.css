@@ -478,6 +478,14 @@ ol{
  .col{
      flex:auto;
  }
+ @media  screen and (max-width: 600px) {
+     /** change flex to column **/
+    .row{
+        display:flex;
+        flex-direction:column;
+
+    }
+ }
   .cs-fund{
     text-align: center;
     border-radius: 290486px;
