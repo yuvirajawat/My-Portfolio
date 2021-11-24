@@ -123,6 +123,22 @@ ol{
     text-align:center;
 
 }
+@media screen and (max-width:600px) {
+    /** for small devices nav-bar must collapse**/
+    .navigation .nav-button::after{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding:0rem 0.2rem;
+        list-style:none;
+
+    }
+    .navigation a::after{
+        font-size:12px;
+    }
+    
+}
 
 /** header **/
 .landing{
