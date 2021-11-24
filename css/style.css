@@ -125,15 +125,17 @@ ol{
 }
 @media screen and (max-width:600px) {
     /** for small devices nav-bar must collapse**/
-    .navigation .nav-pills::after{
-        margin-block-start: 0em;
-        margin-block-end: 0em;
-        margin:0em;
+    .navigation .nav-button::after{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding:0rem 0.2rem;
+        list-style:none;
+
     }
-    .li{
-        text-align:center;
-
-
+    .navigation a::after{
+        font-size:12px;
     }
     
 }
