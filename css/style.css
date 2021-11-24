@@ -330,6 +330,9 @@ ol{
     color:green;
     margin:0;
 }
+.fa-star{
+    margin:0;
+}
 .fa-code{
     margin:0;
 }
@@ -497,3 +500,4 @@ ol{
     text-align:center;
     margin:1rem;
   }
+  
