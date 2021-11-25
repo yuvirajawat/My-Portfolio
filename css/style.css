@@ -118,8 +118,7 @@ ol{
 }
 .navigation .logo .logo-img{
     max-width: 100px;
-    padding:1rem;
-
+    margin:1rem;
 }
 .navigation a{
     background-color:white;
