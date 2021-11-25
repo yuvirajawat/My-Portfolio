@@ -77,6 +77,12 @@ li{
     list-style:none;
 
 }
+.inline-list-nav{
+    display:inline;
+    padding:0rem 0.5rem;
+    list-style:none;
+
+}
 ul{
     padding-inline-start: 0;
 }
