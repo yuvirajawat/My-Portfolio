@@ -26,7 +26,6 @@ body{
 
 /** links **/
 .link{
-    padding:0.5rem;
     text-decoration: none;
     color:white;
 }
@@ -79,12 +78,14 @@ li{
 }
 .inline-list-nav{
     display:inline;
-    padding:0rem 0.5rem;
+    padding:0rem 0.1rem;
     list-style:none;
 
 }
 ul{
     padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 ol{
     list-style: none;
@@ -128,6 +129,15 @@ ol{
     font-size: 16px;
     padding: 0.5rem 0.75rem;
     text-align:center;
+
+}
+/** media query for nav pills **/
+@media screen and (max-width: 600px) {
+.navigation .nav-pills::after{
+    text-align:center;
+    font-weight:400;
+    margin:0;
+}
 
 }
 
