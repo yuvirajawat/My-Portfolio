@@ -200,7 +200,7 @@ ol{
 /** section **/
 .section-white{
     background-color: var(--white);
-    border-radius: 64px;
+    border-radius:0.5rem;
     text-align: center;
     padding: 2rem 0rem;
     margin:0 40px 10px 40px;
@@ -215,7 +215,7 @@ ol{
 
 .section-off-white{
     background-color: var(--off-white);
-    border-radius: 64px;
+    border-radius:0.5rem;
     text-align: center;
     padding: 2rem 0rem;
     margin:0 40px 10px 40px;
@@ -232,7 +232,7 @@ ol{
 
 .section-primary{
     background-color: var(--primary-color);
-    border-radius: 64px;
+    border-radius:0.5rem;
     text-align: center;
     padding:2rem 0rem;
     color:white;
