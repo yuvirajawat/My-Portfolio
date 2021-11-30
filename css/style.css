@@ -200,9 +200,10 @@ ol{
 /** section **/
 .section-white{
     background-color: var(--white);
-    border-radius: 0.5rem;
+    border-radius: 64px;
     text-align: center;
     padding: 2rem 0rem;
+    margin:0 40px 10px 40px;
     
 }
 .section-white h2{
@@ -214,9 +215,10 @@ ol{
 
 .section-off-white{
     background-color: var(--off-white);
-    border-radius: 0.5rem;
+    border-radius: 64px;
     text-align: center;
     padding: 2rem 0rem;
+    margin:0 40px 10px 40px;
     
 }
 .section-off-white h2{
@@ -230,10 +232,11 @@ ol{
 
 .section-primary{
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 64px;
     text-align: center;
     padding:2rem 0rem;
     color:white;
+    margin:0 40px 10px 40px;
 
 }
 .section-primary h2{
